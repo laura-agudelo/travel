@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(116, 150, 235);
+    overflow-x: hidden;
+  }
+  .sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .header {
+    width: 100%;
+    height: 8rem;
+    background-color: #273375;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  
+  .container-buttons{
+    width: 100%;
+    height: 3rem;
+    padding-top: 2rem;
+    border-radius: 30px;
+  }
+  .container-logo {
+    width: 30%; 
+    height: 100%;   
+  }
+  
+  .img-web {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 1rem;
+    order: -1;
+  }
+  .button {
+    color: white;
+    background-color: rgb(116, 150, 235);
+    border-radius: 85px;
+    margin: 8px;
+    border: 1px solid beige;
+  }
+
+  .body{
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(116, 150, 235);
+   display: flex;
+   justify-content: center;
+   padding-top: 3rem;
+  }
+  .spacer {
+    height: 20px; 
+  }
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 10px; 
+    padding: 0 50px;
+  }
+  
+  .card {
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #273375;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+}
+
+.cut-line {
+  width: 15%; 
+  margin: 0 auto; 
+}
+
+
+
+
+
+  
+  
+  
+ 
+
+
+
